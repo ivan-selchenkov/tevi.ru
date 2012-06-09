@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  datetime: 2012-06-09 10:02:01
+  price: 1.5
+  is_sold: false
+
+two:
+  name: MyString
+  description: MyText
+  datetime: 2012-06-09 10:02:01
+  price: 1.5
+  is_sold: false

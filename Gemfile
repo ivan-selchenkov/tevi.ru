@@ -5,6 +5,9 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'activeadmin'
+gem "paperclip", "~> 3.0"
+
 gem 'sqlite3'
 gem 'execjs'
 gem 'therubyracer'
