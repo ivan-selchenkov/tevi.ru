@@ -6,6 +6,7 @@ ActiveAdmin.register Picture do
     f.inputs do
       f.input :name
       f.input :description
+      f.input :galleries, :as => :string, :input_html => {:class => "autocomplete_multi", :multiple => false, :value => f.object.galleries}
       f.input :datetime, :as => :date
       f.input :price
       f.input :is_sold
@@ -22,6 +23,7 @@ ActiveAdmin.register Picture do
         :name,
         :description,
         :datetime,
+        :galleries,
         :price,
         :is_sold do
           row(:image) {
