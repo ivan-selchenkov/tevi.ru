@@ -3,7 +3,7 @@ class CreatePictures < ActiveRecord::Migration
     create_table :pictures do |t|
       t.string :name
       t.text :description
-      t.timestamp :datetime
+      t.timestamp :datetime, :default => Time.now
       t.float :price
       t.boolean :is_sold
 
